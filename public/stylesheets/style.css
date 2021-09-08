@@ -1,12 +1,16 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+#create-form{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+}
+.list{
+    padding: 50px;
 }
 
-a {
-  color: #00b7ff;
-}
-
-h1 {
-  color: 15px;
+#myMap{
+    height: 400px;
+    background-color: red;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
 }

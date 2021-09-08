@@ -1,0 +1,23 @@
+<h1 class="list">Listado de lugares</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <div class="list">
+                {{#each places}}
+                <h3>
+                    {{name}}
+                </h3>
+                <br>
+                <p>{{type}}</p>
+                <a href="/editar/{{id}}" type="button" class="btn btn-info back-button">Editar</a>
+
+                <form action="/eliminar/{{id}}" method="POST">
+                    <button type="submit" class="btn btn-warning back-button">Eliminar</button>
+                </form>
+                <hr>
+                {{/each}}
+                <a href="/" type="button" class="btn btn-primary back-button">Volver</a>
+            </div>
+        </div>
+    </div>
+</div>
